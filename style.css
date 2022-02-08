@@ -1,0 +1,113 @@
+.headder{
+    display: flex;
+    justify-content: space-around;
+    background-color:#5085A5;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    color: #F7F9FB;
+    
+}
+
+.cap{
+    display: flex;
+    flex-direction: row;
+    background-color: #315599;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#headshot{
+    max-height: 300px;
+    width: auto;
+    margin:20px;
+    border-radius: 50%;
+}
+#sampe{
+    display: flex;
+    background-color: #00A6E6;
+    color: antiquewhite;
+    height: 200px;
+    width: 175px;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px; 
+    border-radius: 10%;
+    text-align: center;
+   
+}   
+
+.group-pic{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#F7F9FB;
+    color:#315599;
+
+}
+.pic-pannel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+    width: 200px;
+    margin:30px;
+    color:#687864;
+}
+.info-pic{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    width: auto;
+    height: 200px;
+    border-radius:10% ;
+}
+.info-text{
+    height:100px;
+    margin-top: 16px;
+}
+
+.papers{
+    display: flex;
+    margin: 16px;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.quote{
+    display: flex;
+    background-color: #5085A5;
+    flex-direction: column;
+    padding: 16px;
+
+    
+
+
+}
+.call-to-action{
+    display: flex;
+    flex:1;
+    background-color: #8FC1E3;
+    height:40px;
+    padding: 12px;
+
+}
+.call-to-action.button{
+    color:#3882F6;
+    align-items: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+}
