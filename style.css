@@ -44,6 +44,8 @@
     flex-direction: column;
     background-color:#F7F9FB;
     color:#315599;
+    
+    
 
 }
 .pic-pannel{
@@ -51,6 +53,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .info{
     display: flex;
